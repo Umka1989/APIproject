@@ -20,7 +20,7 @@ git clone https://github.com/Umka1989/APIproject.git
 cd ./APIproject
 
 docker compose up -d
-
+sudo apt -y install python3-pip
 pip3 install -r requirements.txt
 
 python3 main.py
